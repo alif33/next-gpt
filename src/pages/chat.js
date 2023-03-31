@@ -5,7 +5,7 @@ import PdfUploader from "@/components/PdfUploader";
 import ChatBot from "@/components/ChatBot";
 
 export default function Pdf() {
-  const [pdf, setPdf] = useState(true);
+  const [pdf, setPdf] = useState(false);
 
   return (
     <>
@@ -17,7 +17,7 @@ export default function Pdf() {
       </Head>
       <main>
         <Navbar />
-        {pdf ? <ChatBot /> : <PdfUploader />}
+        {pdf ? <ChatBot /> : <PdfUploader setPdf={setPdf} />}
       </main>
     </>
   );

@@ -106,8 +106,8 @@
   border-radius: 20px;
   margin-top: 20px;
   margin-left: 216px;
+  cursor: pointer;
 }
-
 
 .left_card p {
   font-style: normal;
