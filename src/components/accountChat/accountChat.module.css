@@ -1,6 +1,7 @@
 .account_chat {
   padding-top: 50px;
   background: url("/img/bg\ 4.svg");
+  background-size: cover;
   width: 1440px;
   height: 700px;
   background-repeat: no-repeat;
@@ -55,11 +56,7 @@
 }
 
 .cards {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* gap: 30px;
-  padding-top: 25px; */
+  padding-top: 25px;
 }
 
 .left_card {
@@ -149,6 +146,16 @@
   justify-content: center;
   align-items: center;
   margin-top: 76px;
+}
+
+.content input {
+  background-image: url("../../../public/img/pdf.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  outline: none;
+  background-color: rgba(22, 119, 255, 0.05);
+  width: 296.08px;
+  height: 150px;
 }
 
 .content span {

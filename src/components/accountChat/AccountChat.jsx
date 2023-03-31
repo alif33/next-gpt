@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import styles from "./accountChat.module.css";
 import Link from "next/link";
+import { useDropzone } from "react-dropzone";
 import { useRouter } from "next/router";
 
 const AccountChat = ({ setPdf }) => {
+  const { acceptedFiles, getRootProps, getInputProps } = useDropzone();
   const [pdfUri, setPdfUri] = useState();
   const router = useRouter();
 
@@ -18,7 +20,7 @@ const AccountChat = ({ setPdf }) => {
         console.log(err);
       });
   };
-
+  console.log(acceptedFiles);
   const handleUpload = () => {
     setPdf(true);
   };
@@ -66,9 +68,13 @@ const AccountChat = ({ setPdf }) => {
         </div>
         <div className="col-md-6">
           <div className={styles.right_card}>
-            <div className={styles.card_border} style={{ margin: "25px 25px" }}>
+            <div
+              {...getRootProps()}
+              className={styles.card_border}
+              style={{ margin: "25px 25px" }}
+            >
               <div className={styles.content}>
-                <img src="/img/pdf.svg" alt="" />
+                <input />
                 <span>Drag & Drop Your Question as PDF File</span>
                 <p>
                   Or <Link href="">Browse Files</Link> on your computer.
