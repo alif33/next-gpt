@@ -1,8 +1,154 @@
 .chatBot {
-    width: 770px;
-    margin: auto;
+  background-image: url("../../../public/img/bg\ 4.svg");
+  background-repeat: no-repeat;
+  width: 1440px;
+  min-height: 100vh;
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatCard {
+  background-image: url("../../../public/img/pdfCardImg.svg");
+  background-repeat: no-repeat;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+  backdrop-filter: blur(46px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 33px;
+  width: 770px;
+  height: 640px;
 }
 
 .chatHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
+  background: #ffffff;
+  border-radius: 33px 33px 0px 0px;
+}
+.hLeft {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  margin-left: -4rem;
+}
+
+.hRight span {
+  /* font-family: 'Celebes'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1677ff;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.aiChat {
+  width: 500px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+  background: #ffffff;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.aiChat p {
+  /* font-family: 'Celebes'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #111111;
+  padding: 20px;
+}
+
+.manChat {
+  width: 500px;
+  height: 84px;
+  background: #1677ff;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin-left: 240px;
+  margin-top: 20px;
+}
+
+.manChat p {
+  /* font-family: 'Celebes'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #ffffff;
+  padding: 20px;
+}
+
+.img {
+  background-image: url("../../../public/img/aiBg.svg");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  background: #ffffff;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  padding: 10px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.cardFooter {
+  box-sizing: border-box;
+  width: 770px;
+  height: 92px;
+  left: 335px;
+  top: 882px;
+  background: #ffffff;
+  border: 1px solid #eeecf6;
+  border-radius: 0px 0px 33px 33px;
+  margin-top: 65px;
+}
+.footerItm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 30px;
+}
+
+.footerItm span {
+  margin-left: 20px;
+
+  /* font-family: 'Celebes'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #8496aa;
+}
+
+.footerImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../../public/img/sendBg.svg");
+  background-repeat: no-repeat;
+  width: 62px;
+  height: 62px;
+  left: 1013px;
+  top: 897px;
+
+  background: #1677ff;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 18px 18px 0px;
 }
