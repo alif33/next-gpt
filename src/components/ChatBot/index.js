@@ -36,7 +36,7 @@ const ChatBot = () => {
         <img className={styles.img} src="/img/aiIcon.svg" alt="" />
         <div className={styles.cardFooter}>
           <div className={styles.footerItm}>
-            <span>Ask any question...</span>
+            <input type="text" placeholder="Ask any question..." />
             <div className={styles.footerImg}>
               <img src="/img/send.png" alt="" />
             </div>

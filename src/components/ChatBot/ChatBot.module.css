@@ -124,7 +124,10 @@
   margin: 15px 30px;
 }
 
-.footerItm span {
+.footerItm input {
+  outline: none;
+  border: 0;
+  width: 500px;
   margin-left: 20px;
 
   /* font-family: 'Celebes'; */
