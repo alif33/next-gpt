@@ -1,0 +1,55 @@
+.navbar {
+  background: #ffffff;
+  height: 80px;
+}
+.nav_left h5 {
+  margin-left: 12.5px;
+  /* font-family: "AvertaStd-Bold"; */
+  font-size: 22px;
+}
+.nav_middle ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.nav_middle li {
+  margin-left: 35px;
+  list-style: none;
+  /* font-family: 'Celebes'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #111111;
+}
+
+
+.nav_right h5 {
+  margin: 0 18px;
+  /* font-family: "Celebes"; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+.nav_right span {
+  width: 123px;
+  height: 45px;
+  background: #1677ff;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 39px;
+  gap: 10px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+.right_img {
+  display: flex;
+  gap: 8px;
+  margin-right: 20px;
+}

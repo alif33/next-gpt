@@ -1,0 +1,97 @@
+.use_cases {
+  margin-top: 5px;
+}
+.header {
+  margin-bottom: 8rem;
+}
+.header p {
+  margin-top: 20px;
+  padding-left: 4rem;
+  /* font-family: 'Celebes'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #777777;
+}
+.header_flex {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 15px;
+}
+.header_flex span {
+  /* font-family: 'Celebes'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  color: #111111;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.card {
+  width: 300.25px;
+  height: 370.21px;
+  /* filter: drop-shadow(0px 11.2337px 22.4674px rgba(41, 41, 42, 0.07)); */
+  box-shadow: 0px 11.2337px 22.4674px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+  margin-bottom: -11rem;
+}
+.card1 {
+  width: 300.25px;
+  height: 370.21px;
+  /* filter: drop-shadow(0px 11.2337px 22.4674px rgba(41, 41, 42, 0.07)); */
+  box-shadow: 0px 11.2337px 22.4674px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+  margin-top: -50px;
+}
+
+.card h5 {
+  margin-left: -3rem;
+
+  /* font-family: 'Celebes'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17.9739px;
+  line-height: 27px;
+  color: #111111;
+}
+.card1 h5 {
+  margin-left: -3rem;
+
+  /* font-family: 'Celebes'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17.9739px;
+  line-height: 27px;
+  color: #111111;
+  margin-top: -10px;
+}
+
+.card p {
+  padding: 30px 20px;
+}
+.card1 p {
+  padding: 20px 20px;
+}
+
+.card img {
+  margin-top: -2rem;
+}
+
+.card1_img {
+  background-image: url("/img/forWorkbg.svg");
+  background-repeat: no-repeat;
+  left: 604.98px;
+  top: 1753px;
+  margin-top: -3rem;
+}
+
+.card1_img img {
+  padding: 25px;
+  /* margin-top: -2rem; */
+}

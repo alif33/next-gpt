@@ -1,0 +1,53 @@
+.container {
+  background-image: url("/img/bg\ 4.svg");
+  background-repeat: no-repeat;
+
+  width: 1440px;
+  height: 440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.content h2 {
+  /* font-family: 'Celebes'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 125%;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+
+  color: #111111;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 39px;
+  width: 155px;
+  height: 55px;
+  background: #1677ff;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.btn span {
+  /* font-family: 'Celebes'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
